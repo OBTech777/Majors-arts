@@ -1,0 +1,1681 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Major's Art</title>
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #55ddec, #678de7);
+    }
+    .header {
+      background-color: #59ded0;
+      padding: 30px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #007bff;
+    }
+    .header p {
+      font-style: italic;
+      color: #555;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+      background-color: #f7f6fa;
+      padding: 10px 0;
+    }
+    .nav button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .nav button:hover {
+      background-color: #0056b3;
+    }
+    .section-title {
+      text-align: center;
+      margin: 40px 0 20px;
+      color: #fff;
+      font-size: 28px;
+    }
+    .section-subtitle {
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 30px;
+      color: #eee;
+    }
+    
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .hold-2,.hold-3{
+      font-weight: 600;
+      font-size:15px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      padding-top: 9px;
+     
+    }
+
+    .hold-1{
+      font-weight: 600;
+      font-size:15px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+    }
+    .hrice{
+      display: block;
+      padding-bottom: 2px;
+    }
+    .hrice-2{
+      display: block;
+      margin-top: 32px;
+    }
+    .card {
+      background-color: rgb(251, 242, 242);
+      border: 4px solid #72967f;
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover ;
+      flex-shrink: 0;
+    }
+    .card h3 {
+      font-size: 16px;
+      margin: 10px 0 5px;
+    }
+    .price {
+      color: #444;
+      top: 5px;
+    }
+    .btn-order, .btn-select {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn-order:hover, .btn-select:hover {
+      background-color: #4369f1;
+    }
+  
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: 24px;
+      }
+      .header h1 {
+        font-size: 28px;
+      }
+    }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Major's Art</h1>
+  <p>Home of Quality And Affordable Laptop Stickers</p>
+</div>
+
+<!-- Navigation -->
+
+<div class="nav">
+  <a href="#home"><button>Home</button></a>
+  <a href="#designs"><button>My Designs</button></a>
+  <button>Upload</button>
+</div>
+
+
+<!-- Home Section -->
+<div id="home"></div>
+<h2 class="section-title">Featured Stickers</h2>
+<div class="container">
+  
+    <div class="card">
+      <img src="HOME/BLACK WHITE GOLD CREATIVE ABSTRACT ILLUSTION LAPTOP STICKER.jpg" alt="BLACK WHITE GOLD CREATIVE ABSTRACT ILLUSTION LAPTOP STICKER">
+      <div class="hold-1"><p>BLACK WHITE GOLD CREATIVE ABSTRACT ILLUSTION LAPTOP STICKER</p>
+      <span class="hrice">₵80.00</span>
+      <button class="whatsapp-btn btn-order" data-item="BLACK WHITE GOLD CREATIVE ABSTRACT ILLUSTION LAPTOP STICKER">Order</button></div>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/BLUESET PAINTING LAPTOP STICKER.jpg" alt="BLUESET PAINTING LAPTOP STICKER">
+      <div class="hold-2"><p>BLUESET PAINTING LAPTOP STICKER</p>
+        <span class="hrice-2">₵80.00</span>
+      <button class="whatsapp-btn btn-order" data-item="BLUESET PAINTING LAPTOP STICKER">Order</button></div>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/BOMB LAPTOP STICKER.jpg" alt="BOMB LAPTOP STICKER">
+      <p>BOMB LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="BOMB LAPTOP STICKER">Order</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/DAMN CARTOON FACE PAINTING LAPTOP STICKER.jpg" alt="DAMN CARTOON FACE PAINTING LAPTOP STICKER">
+     <div class="hold-3"><p>DAMN CARTOON FACE PAINTING LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="DAMN CARTOON FACE PAINTING LAPTOP STICKER">Order</button></div> 
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/FIRE BASKETBALL LAPTOP STICKER.jpg" alt="FIRE BASKETBALL LAPTOP STICKER">
+      <p>FIRE BASKETBALL LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="FIRE BASKETBALL LAPTOP STICKER">Order</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/ORANGE CAMOUFLAGE LAPTOP STICKER.jpg" alt="ORANGE CAMOUFLAGE LAPTOP STICKER">
+      <p>ORANGE CAMOUFLAGE LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="ORANGE CAMOUFLAGE LAPTOP STICKER">Order</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/PINK DANGER LAPTOP STICKER.jpg" alt="PINK DANGER LAPTOP STICKER">
+      <p>PINK DANGER LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="PINK DANGER LAPTOP STICKER">Order</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/PINKY PEACH LAPTOP STICKER.jpg" alt="PINKY PEACH LAPTOP STICKER">
+      <p>PINKY PEACH LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="PINKY PEACH LAPTOP STICKER">Order</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/PURPLE MARBLE LAPTOP STICKER.jpg" alt="PURPLE MARBLE LAPTOP STICKER">
+      <p>PURPLE MARBLE LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="PURPLE MARBLE LAPTOP STICKER">Order</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/ROAD WARRIORS LAPTOP STICKER.jpg" alt="ROAD WARRIORS LAPTOP STICKER">
+      <p>ROAD WARRIORS LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="ROAD WARRIORS LAPTOP STICKER">Order</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/SENSATIONAL BUTTERFLY LAPTOP STICKER.jpg" alt="SENSATIONAL BUTTERFLY LAPTOP STICKER">
+      <p>SENSATIONAL BUTTERFLY LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="SENSATIONAL BUTTERFLY LAPTOP STICKER">Order</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/SOLID PINK LAPTOP STICKER.jpg" alt="SOLID PINK LAPTOP STICKER">
+      <p>SOLID PINK LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="SOLID PINK LAPTOP STICKER">Order</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/SPIDER MAN LAPTOP STICKER.jpg" alt="SPIDER MAN LAPTOP STICKER">
+      <p>SPIDER MAN LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="SPIDER MAN LAPTOP STICKER">Order</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="HOME/TAGS AND BRANDS LAPTOP STICKER.jpg" alt="TAGS AND BRANDS LAPTOP STICKER">
+      <p>TAGS AND BRANDS LAPTOP STICKER</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-order" data-item="TAGS AND BRANDS LAPTOP STICKER">Order</button>
+    </div>
+    
+</div>
+
+<!-- Designs Section -->
+<div id="designs"></div>
+<h2 class="section-title">Designs Section</h2>
+<p class="section-subtitle">Choose your designs below!</p>
+<div class="container">
+  
+    <div class="card">
+      <img src="SELECT/1-LOVE FLOWER BICYCLE.jpg" alt="1-LOVE FLOWER BICYCLE">
+      <p>1-LOVE FLOWER BICYCLE</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="1-LOVE FLOWER BICYCLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/10-GREEN CAMOUFLAGE.jpg" alt="10-GREEN CAMOUFLAGE">
+      <p>10-GREEN CAMOUFLAGE</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="10-GREEN CAMOUFLAGE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/100-PSYCHEDELIC SWIRL GROOVE PATTERN.jpeg" alt="100-PSYCHEDELIC SWIRL GROOVE PATTERN">
+      <p>100-PSYCHEDELIC SWIRL GROOVE PATTERN</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="100-PSYCHEDELIC SWIRL GROOVE PATTERN">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/101-BRIGHT WAVE GROOVY PATTERN.jpeg" alt="101-BRIGHT WAVE GROOVY PATTERN">
+      <p>101-BRIGHT WAVE GROOVY PATTERN</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="101-BRIGHT WAVE GROOVY PATTERN">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/102-RETRO PTTERN VECTOR ART.jpeg" alt="102-RETRO PTTERN VECTOR ART">
+      <p>102-RETRO PTTERN VECTOR ART</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="102-RETRO PTTERN VECTOR ART">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/103-RED AND PINK SWIRL BACKGROUND.jpeg" alt="103-RED AND PINK SWIRL BACKGROUND">
+      <p>103-RED AND PINK SWIRL BACKGROUND</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="103-RED AND PINK SWIRL BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/104-RED AD WHITE RETRO WAE BACKGROUND.jpeg" alt="104-RED AD WHITE RETRO WAE BACKGROUND">
+      <p>104-RED AD WHITE RETRO WAE BACKGROUND</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="104-RED AD WHITE RETRO WAE BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/105-YELLOW AND BLACK CHECKED BACKGROUND.jpeg" alt="105-YELLOW AND BLACK CHECKED BACKGROUND">
+      <p>105-YELLOW AND BLACK CHECKED BACKGROUND</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="105-YELLOW AND BLACK CHECKED BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/106-YELLOW AND BLACK OPTICAL ILLUSION BACKGROUND.jpeg" alt="106-YELLOW AND BLACK OPTICAL ILLUSION BACKGROUND">
+      <p>106-YELLOW AND BLACK OPTICAL ILLUSION BACKGROUND</p>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="106-YELLOW AND BLACK OPTICAL ILLUSION BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/107-YELLOW AND BLACK AESTHETICS WALLPAPER.jpeg" alt="107-YELLOW AND BLACK AESTHETICS WALLPAPER">
+      <h3>107-YELLOW AND BLACK AESTHETICS WALLPAPER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="107-YELLOW AND BLACK AESTHETICS WALLPAPER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/108-BOMB MAN.jpeg" alt="108-BOMB MAN">
+      <h3>108-BOMB MAN</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="108-BOMB MAN">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/109-PURPLE ALCOHOL INK PAINTING.jpeg" alt="109-PURPLE ALCOHOL INK PAINTING">
+      <h3>109-PURPLE ALCOHOL INK PAINTING</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="109-PURPLE ALCOHOL INK PAINTING">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/11-COOL PINK GIRL AESTHTIC.jpg" alt="11-COOL PINK GIRL AESTHTIC">
+      <h3>11-COOL PINK GIRL AESTHTIC</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="11-COOL PINK GIRL AESTHTIC">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/110-WATERCOLOUR PAINT.jpeg" alt="110-WATERCOLOUR PAINT">
+      <h3>110-WATERCOLOUR PAINT</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="110-WATERCOLOUR PAINT">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/111-WATER COLOUR BLUE AND PINK GALAXY BACKGROUND.jpeg" alt="111-WATER COLOUR BLUE AND PINK GALAXY BACKGROUND">
+      <h3>111-WATER COLOUR BLUE AND PINK GALAXY BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="111-WATER COLOUR BLUE AND PINK GALAXY BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/112-PURPLE ALCOHOL INK PAINTING.jpeg" alt="112-PURPLE ALCOHOL INK PAINTING">
+      <h3>112-PURPLE ALCOHOL INK PAINTING</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="112-PURPLE ALCOHOL INK PAINTING">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/113-PURPLE ALCOHOL INK PAINTING.jpeg" alt="113-PURPLE ALCOHOL INK PAINTING">
+      <h3>113-PURPLE ALCOHOL INK PAINTING</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="113-PURPLE ALCOHOL INK PAINTING">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/114-PERFUME WALLPAPER.jpeg" alt="114-PERFUME WALLPAPER">
+      <h3>114-PERFUME WALLPAPER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="114-PERFUME WALLPAPER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/115-IRREGULAR BEIGE SHAPES.jpeg" alt="115-IRREGULAR BEIGE SHAPES">
+      <h3>115-IRREGULAR BEIGE SHAPES</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="115-IRREGULAR BEIGE SHAPES">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/116-HAND DRAWN SPACE ELEMENT.jpeg" alt="116-HAND DRAWN SPACE ELEMENT">
+      <h3>116-HAND DRAWN SPACE ELEMENT</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="116-HAND DRAWN SPACE ELEMENT">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/117-BLACK AND WHITE AETHETICS.jpeg" alt="117-BLACK AND WHITE AETHETICS">
+      <h3>117-BLACK AND WHITE AETHETICS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="117-BLACK AND WHITE AETHETICS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/118-NEON GALAXY SYSYTEM.jpeg" alt="118-NEON GALAXY SYSYTEM">
+      <h3>118-NEON GALAXY SYSYTEM</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="118-NEON GALAXY SYSYTEM">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/119-INTERGALACTIC ILLUSION.jpeg" alt="119-INTERGALACTIC ILLUSION">
+      <h3>119-INTERGALACTIC ILLUSION</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="119-INTERGALACTIC ILLUSION">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/12-HOT PINK.jpg" alt="12-HOT PINK">
+      <h3>12-HOT PINK</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="12-HOT PINK">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/120-HEART SEAMLESS PATTERN.jpeg" alt="120-HEART SEAMLESS PATTERN">
+      <h3>120-HEART SEAMLESS PATTERN</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="120-HEART SEAMLESS PATTERN">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/121-FEELINGS BACKGROUND.jpeg" alt="121-FEELINGS BACKGROUND">
+      <h3>121-FEELINGS BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="121-FEELINGS BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/122-SMILEY SEAMLESS BACKGROUND.jpeg" alt="122-SMILEY SEAMLESS BACKGROUND">
+      <h3>122-SMILEY SEAMLESS BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="122-SMILEY SEAMLESS BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/123-DARK NIKE WALLPAPER.jpeg" alt="123-DARK NIKE WALLPAPER">
+      <h3>123-DARK NIKE WALLPAPER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="123-DARK NIKE WALLPAPER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/124-WHITE AND GOLD MARBLE.jpeg" alt="124-WHITE AND GOLD MARBLE">
+      <h3>124-WHITE AND GOLD MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="124-WHITE AND GOLD MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/125-HP WHITE AND GOLD MARBLE.jpeg" alt="125-HP WHITE AND GOLD MARBLE">
+      <h3>125-HP WHITE AND GOLD MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="125-HP WHITE AND GOLD MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/126-PINK AND BLUE ALCOHOL INK PAINTING.jpeg" alt="126-PINK AND BLUE ALCOHOL INK PAINTING">
+      <h3>126-PINK AND BLUE ALCOHOL INK PAINTING</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="126-PINK AND BLUE ALCOHOL INK PAINTING">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/127-ALCOHOL INK SEA TEXTURE.jpeg" alt="127-ALCOHOL INK SEA TEXTURE">
+      <h3>127-ALCOHOL INK SEA TEXTURE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="127-ALCOHOL INK SEA TEXTURE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/128-PRINCESS STICKER.jpg" alt="128-PRINCESS STICKER">
+      <h3>128-PRINCESS STICKER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="128-PRINCESS STICKER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/129-RED,CREAM AND BLACK SUNBURST BACKGROUND.jpeg" alt="129-RED,CREAM AND BLACK SUNBURST BACKGROUND">
+      <h3>129-RED,CREAM AND BLACK SUNBURST BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="129-RED,CREAM AND BLACK SUNBURST BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/13-SOLID PINK.jpg" alt="13-SOLID PINK">
+      <h3>13-SOLID PINK</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="13-SOLID PINK">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/130-BRUSHED BRASS WALLPAPER.jpeg" alt="130-BRUSHED BRASS WALLPAPER">
+      <h3>130-BRUSHED BRASS WALLPAPER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="130-BRUSHED BRASS WALLPAPER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/131-BRUSHED BRASS WALLPAPER.jpeg" alt="131-BRUSHED BRASS WALLPAPER">
+      <h3>131-BRUSHED BRASS WALLPAPER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="131-BRUSHED BRASS WALLPAPER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/132-PLANT LEAVES FLORAL BACKGROUND.jpeg" alt="132-PLANT LEAVES FLORAL BACKGROUND">
+      <h3>132-PLANT LEAVES FLORAL BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="132-PLANT LEAVES FLORAL BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/133-LIFESTYLE AESTHETIC BACKGROUND.jpeg" alt="133-LIFESTYLE AESTHETIC BACKGROUND">
+      <h3>133-LIFESTYLE AESTHETIC BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="133-LIFESTYLE AESTHETIC BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/134-TEAL AND RUST ABSTRACT.jpeg" alt="134-TEAL AND RUST ABSTRACT">
+      <h3>134-TEAL AND RUST ABSTRACT</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="134-TEAL AND RUST ABSTRACT">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/135-GRAPHIC WALLPAPER.jpeg" alt="135-GRAPHIC WALLPAPER">
+      <h3>135-GRAPHIC WALLPAPER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="135-GRAPHIC WALLPAPER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/136-BLUE VISION BOARD AESTHETICS.jpeg" alt="136-BLUE VISION BOARD AESTHETICS">
+      <h3>136-BLUE VISION BOARD AESTHETICS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="136-BLUE VISION BOARD AESTHETICS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/137-NURSE AESTHETIC IMAGES.jpeg" alt="137-NURSE AESTHETIC IMAGES">
+      <h3>137-NURSE AESTHETIC IMAGES</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="137-NURSE AESTHETIC IMAGES">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/138-NURSES WALLPAPER.jpeg" alt="138-NURSES WALLPAPER">
+      <h3>138-NURSES WALLPAPER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="138-NURSES WALLPAPER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/139-NEON GREEN AESTHETICS.jpeg" alt="139-NEON GREEN AESTHETICS">
+      <h3>139-NEON GREEN AESTHETICS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="139-NEON GREEN AESTHETICS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/14-FLOAT.jpg" alt="14-FLOAT">
+      <h3>14-FLOAT</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="14-FLOAT">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/140-NEON CROSS GREEN AESTHETICS.jpeg" alt="140-NEON CROSS GREEN AESTHETICS">
+      <h3>140-NEON CROSS GREEN AESTHETICS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="140-NEON CROSS GREEN AESTHETICS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/141-SAKUNA ANIME HAND POWER WALLPAPER.jpeg" alt="141-SAKUNA ANIME HAND POWER WALLPAPER">
+      <h3>141-SAKUNA ANIME HAND POWER WALLPAPER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="141-SAKUNA ANIME HAND POWER WALLPAPER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/142-ANIME WALLPAPER.jpeg" alt="142-ANIME WALLPAPER">
+      <h3>142-ANIME WALLPAPER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="142-ANIME WALLPAPER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/143-SLOW MOTION BLUR.jpeg" alt="143-SLOW MOTION BLUR">
+      <h3>143-SLOW MOTION BLUR</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="143-SLOW MOTION BLUR">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/144-GREEN IOS.jpeg" alt="144-GREEN IOS">
+      <h3>144-GREEN IOS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="144-GREEN IOS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/145-PINK FLOWER IN MACRO SHOT WALLPAPER.jpeg" alt="145-PINK FLOWER IN MACRO SHOT WALLPAPER">
+      <h3>145-PINK FLOWER IN MACRO SHOT WALLPAPER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="145-PINK FLOWER IN MACRO SHOT WALLPAPER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/146-GREEN WAVE WALLPAPER.jpeg" alt="146-GREEN WAVE WALLPAPER">
+      <h3>146-GREEN WAVE WALLPAPER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="146-GREEN WAVE WALLPAPER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/147-PANTONE COLOUR SAGE GREEN AESTHETICS.jpeg" alt="147-PANTONE COLOUR SAGE GREEN AESTHETICS">
+      <h3>147-PANTONE COLOUR SAGE GREEN AESTHETICS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="147-PANTONE COLOUR SAGE GREEN AESTHETICS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/148-SAGE GREEN ASTHETIC COLLAGE.jpeg" alt="148-SAGE GREEN ASTHETIC COLLAGE">
+      <h3>148-SAGE GREEN ASTHETIC COLLAGE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="148-SAGE GREEN ASTHETIC COLLAGE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/149-FLOWER GREEN VECTOR.jpeg" alt="149-FLOWER GREEN VECTOR">
+      <h3>149-FLOWER GREEN VECTOR</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="149-FLOWER GREEN VECTOR">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/15-SEAMLESS PINK MARBLE.jpg" alt="15-SEAMLESS PINK MARBLE">
+      <h3>15-SEAMLESS PINK MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="15-SEAMLESS PINK MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/150-GEOGRAPHICAL SURFACE.jpeg" alt="150-GEOGRAPHICAL SURFACE">
+      <h3>150-GEOGRAPHICAL SURFACE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="150-GEOGRAPHICAL SURFACE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/151-SUSTEX CORPORATE.jpeg" alt="151-SUSTEX CORPORATE">
+      <h3>151-SUSTEX CORPORATE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="151-SUSTEX CORPORATE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/152-CYAN PURPLE FLOWING BACKGROUND.jpeg" alt="152-CYAN PURPLE FLOWING BACKGROUND">
+      <h3>152-CYAN PURPLE FLOWING BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="152-CYAN PURPLE FLOWING BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/153-HONOR SILVER FLOWER.jpeg" alt="153-HONOR SILVER FLOWER">
+      <h3>153-HONOR SILVER FLOWER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="153-HONOR SILVER FLOWER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/154-MADRID TEAM.jpg" alt="154-MADRID TEAM">
+      <h3>154-MADRID TEAM</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="154-MADRID TEAM">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/155-MAN CITY.jpg" alt="155-MAN CITY">
+      <h3>155-MAN CITY</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="155-MAN CITY">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/156-REAL MADRID LOGO.jpg" alt="156-REAL MADRID LOGO">
+      <h3>156-REAL MADRID LOGO</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="156-REAL MADRID LOGO">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/157-MAN UNITED.jpg" alt="157-MAN UNITED">
+      <h3>157-MAN UNITED</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="157-MAN UNITED">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/158-BLUE AND WHITE CITY.jpg" alt="158-BLUE AND WHITE CITY">
+      <h3>158-BLUE AND WHITE CITY</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="158-BLUE AND WHITE CITY">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/159-REAL MADRIND LOGO 2.jpg" alt="159-REAL MADRIND LOGO 2">
+      <h3>159-REAL MADRIND LOGO 2</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="159-REAL MADRIND LOGO 2">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/16-PINK AESTHETIC 1.jpg" alt="16-PINK AESTHETIC 1">
+      <h3>16-PINK AESTHETIC 1</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="16-PINK AESTHETIC 1">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/160-MADRID JOY.jpg" alt="160-MADRID JOY">
+      <h3>160-MADRID JOY</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="160-MADRID JOY">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/161-VISCA BARCA.jpg" alt="161-VISCA BARCA">
+      <h3>161-VISCA BARCA</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="161-VISCA BARCA">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/162-LIGHTLING MAN CITY.jpg" alt="162-LIGHTLING MAN CITY">
+      <h3>162-LIGHTLING MAN CITY</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="162-LIGHTLING MAN CITY">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/163-REAL VICTORY.jpg" alt="163-REAL VICTORY">
+      <h3>163-REAL VICTORY</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="163-REAL VICTORY">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/164-BARCA SALUTE.jpg" alt="164-BARCA SALUTE">
+      <h3>164-BARCA SALUTE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="164-BARCA SALUTE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/165-BARCA CARDS.jpg" alt="165-BARCA CARDS">
+      <h3>165-BARCA CARDS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="165-BARCA CARDS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/166-SMOKE BARCA LOGO.jpg" alt="166-SMOKE BARCA LOGO">
+      <h3>166-SMOKE BARCA LOGO</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="166-SMOKE BARCA LOGO">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/167-SIGN BARCA.jpg" alt="167-SIGN BARCA">
+      <h3>167-SIGN BARCA</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="167-SIGN BARCA">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/168-BARCA LINNES.jpg" alt="168-BARCA LINNES">
+      <h3>168-BARCA LINNES</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="168-BARCA LINNES">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/169-REAL MADRID TEAM 2.jpg" alt="169-REAL MADRID TEAM 2">
+      <h3>169-REAL MADRID TEAM 2</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="169-REAL MADRID TEAM 2">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/17-PINK AESTHETIC 2.jpg" alt="17-PINK AESTHETIC 2">
+      <h3>17-PINK AESTHETIC 2</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="17-PINK AESTHETIC 2">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/170-DEADLY MAN UNITED.jpg" alt="170-DEADLY MAN UNITED">
+      <h3>170-DEADLY MAN UNITED</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="170-DEADLY MAN UNITED">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/171-UNITED IS EVERYTHING.jpg" alt="171-UNITED IS EVERYTHING">
+      <h3>171-UNITED IS EVERYTHING</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="171-UNITED IS EVERYTHING">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/172-BARCA TEAM.jpg" alt="172-BARCA TEAM">
+      <h3>172-BARCA TEAM</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="172-BARCA TEAM">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/173-BARBIE GIRLS.jpg" alt="173-BARBIE GIRLS">
+      <h3>173-BARBIE GIRLS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="173-BARBIE GIRLS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/18-PINK AESTHETIC 3.jpg" alt="18-PINK AESTHETIC 3">
+      <h3>18-PINK AESTHETIC 3</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="18-PINK AESTHETIC 3">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/19-PINK BRUSH.jpg" alt="19-PINK BRUSH">
+      <h3>19-PINK BRUSH</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="19-PINK BRUSH">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/2-WOODEN PLANK TEXTURE.jpg" alt="2-WOODEN PLANK TEXTURE">
+      <h3>2-WOODEN PLANK TEXTURE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="2-WOODEN PLANK TEXTURE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/20-KISSES.jpg" alt="20-KISSES">
+      <h3>20-KISSES</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="20-KISSES">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/21-SEAMLESS PINK MARBLE.jpg" alt="21-SEAMLESS PINK MARBLE">
+      <h3>21-SEAMLESS PINK MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="21-SEAMLESS PINK MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/22-CUTE DAISY.jpg" alt="22-CUTE DAISY">
+      <h3>22-CUTE DAISY</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="22-CUTE DAISY">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/23-FIRST AID.jpg" alt="23-FIRST AID">
+      <h3>23-FIRST AID</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="23-FIRST AID">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/24-LIQUID ABSTRACT PINK MARBLE (2).jpg" alt="24-LIQUID ABSTRACT PINK MARBLE (2)">
+      <h3>24-LIQUID ABSTRACT PINK MARBLE (2)</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="24-LIQUID ABSTRACT PINK MARBLE (2)">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/24-LIQUID ABSTRACT PINK MARBLE.jpg" alt="24-LIQUID ABSTRACT PINK MARBLE">
+      <h3>24-LIQUID ABSTRACT PINK MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="24-LIQUID ABSTRACT PINK MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/25-MAN CITY FC.jpg" alt="25-MAN CITY FC">
+      <h3>25-MAN CITY FC</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="25-MAN CITY FC">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/26-PINK ABSTRACT.jpg" alt="26-PINK ABSTRACT">
+      <h3>26-PINK ABSTRACT</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="26-PINK ABSTRACT">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/27-STYLISH PINK BACKGROUND.jpg" alt="27-STYLISH PINK BACKGROUND">
+      <h3>27-STYLISH PINK BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="27-STYLISH PINK BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/28-PURPLE SMILEY.jpg" alt="28-PURPLE SMILEY">
+      <h3>28-PURPLE SMILEY</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="28-PURPLE SMILEY">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/29-PURPLE AESTHETICS 1.jpg" alt="29-PURPLE AESTHETICS 1">
+      <h3>29-PURPLE AESTHETICS 1</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="29-PURPLE AESTHETICS 1">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/3-SEAMLESS HAND PATTERN.jpg" alt="3-SEAMLESS HAND PATTERN">
+      <h3>3-SEAMLESS HAND PATTERN</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="3-SEAMLESS HAND PATTERN">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/30-SMILEY PURPLE STONE.jpg" alt="30-SMILEY PURPLE STONE">
+      <h3>30-SMILEY PURPLE STONE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="30-SMILEY PURPLE STONE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/31-PURPLE STONE.jpg" alt="31-PURPLE STONE">
+      <h3>31-PURPLE STONE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="31-PURPLE STONE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/32-PURPLE AESTHETICS 2.jpg" alt="32-PURPLE AESTHETICS 2">
+      <h3>32-PURPLE AESTHETICS 2</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="32-PURPLE AESTHETICS 2">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/33-PURPLE SMOKE.jpeg" alt="33-PURPLE SMOKE">
+      <h3>33-PURPLE SMOKE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="33-PURPLE SMOKE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/34-PURPLE COCK.jpg" alt="34-PURPLE COCK">
+      <h3>34-PURPLE COCK</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="34-PURPLE COCK">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/35-FRACTAL FLOWER.jpeg" alt="35-FRACTAL FLOWER">
+      <h3>35-FRACTAL FLOWER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="35-FRACTAL FLOWER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/36-PURPLE MARBLE.jpeg" alt="36-PURPLE MARBLE">
+      <h3>36-PURPLE MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="36-PURPLE MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/37-INJECTION AND PILLS BACKGROUND.jpeg" alt="37-INJECTION AND PILLS BACKGROUND">
+      <h3>37-INJECTION AND PILLS BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="37-INJECTION AND PILLS BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/38-LIGHT PURPLE AESTHETICS 4.jpeg" alt="38-LIGHT PURPLE AESTHETICS 4">
+      <h3>38-LIGHT PURPLE AESTHETICS 4</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="38-LIGHT PURPLE AESTHETICS 4">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/39-PURPLE BRICKS.jpeg" alt="39-PURPLE BRICKS">
+      <h3>39-PURPLE BRICKS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="39-PURPLE BRICKS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/4-BLACK WHITE GOLD CREATIVE ABSTRACT ILLUSTION.jpg" alt="4-BLACK WHITE GOLD CREATIVE ABSTRACT ILLUSTION">
+      <h3>4-BLACK WHITE GOLD CREATIVE ABSTRACT ILLUSTION</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="4-BLACK WHITE GOLD CREATIVE ABSTRACT ILLUSTION">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/40-STAY POSITIVE.jpeg" alt="40-STAY POSITIVE">
+      <h3>40-STAY POSITIVE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="40-STAY POSITIVE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/41-PURPLE AESTHETICS 5.jpeg" alt="41-PURPLE AESTHETICS 5">
+      <h3>41-PURPLE AESTHETICS 5</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="41-PURPLE AESTHETICS 5">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/42-PURPLE ABSTRACT LIQUID ART.jpeg" alt="42-PURPLE ABSTRACT LIQUID ART">
+      <h3>42-PURPLE ABSTRACT LIQUID ART</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="42-PURPLE ABSTRACT LIQUID ART">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/43-SOLID BLUE.jpeg" alt="43-SOLID BLUE">
+      <h3>43-SOLID BLUE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="43-SOLID BLUE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/44-BLUE ABSTRACT LIQUID ART.jpeg" alt="44-BLUE ABSTRACT LIQUID ART">
+      <h3>44-BLUE ABSTRACT LIQUID ART</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="44-BLUE ABSTRACT LIQUID ART">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/45-PURPLE BRUSH RYTHME.jpeg" alt="45-PURPLE BRUSH RYTHME">
+      <h3>45-PURPLE BRUSH RYTHME</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="45-PURPLE BRUSH RYTHME">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/46-PURPLE STAR GLITTERS.jpeg" alt="46-PURPLE STAR GLITTERS">
+      <h3>46-PURPLE STAR GLITTERS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="46-PURPLE STAR GLITTERS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/47-PURPLE BLOBS.jpeg" alt="47-PURPLE BLOBS">
+      <h3>47-PURPLE BLOBS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="47-PURPLE BLOBS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/48-PURPLE DRAFT.jpeg" alt="48-PURPLE DRAFT">
+      <h3>48-PURPLE DRAFT</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="48-PURPLE DRAFT">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/49-PURPLE AESTHETIC 6.jpeg" alt="49-PURPLE AESTHETIC 6">
+      <h3>49-PURPLE AESTHETIC 6</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="49-PURPLE AESTHETIC 6">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/5-AESTHETIC PURPLE COLLAGE.jpg" alt="5-AESTHETIC PURPLE COLLAGE">
+      <h3>5-AESTHETIC PURPLE COLLAGE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="5-AESTHETIC PURPLE COLLAGE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/50-MARBLE PURPLE TEXTURE.jpeg" alt="50-MARBLE PURPLE TEXTURE">
+      <h3>50-MARBLE PURPLE TEXTURE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="50-MARBLE PURPLE TEXTURE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/51-LAVENDER PURPLE MARBLE.jpeg" alt="51-LAVENDER PURPLE MARBLE">
+      <h3>51-LAVENDER PURPLE MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="51-LAVENDER PURPLE MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/52-ETHEREAL PURPLE & WHITE MARBLE TEXTURE.jpeg" alt="52-ETHEREAL PURPLE & WHITE MARBLE TEXTURE">
+      <h3>52-ETHEREAL PURPLE & WHITE MARBLE TEXTURE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="52-ETHEREAL PURPLE & WHITE MARBLE TEXTURE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/53-PURPLE SEAM.jpeg" alt="53-PURPLE SEAM">
+      <h3>53-PURPLE SEAM</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="53-PURPLE SEAM">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/54-ABSTRACT BLE COLOURFUL BACKGROUND.jpeg" alt="54-ABSTRACT BLE COLOURFUL BACKGROUND">
+      <h3>54-ABSTRACT BLE COLOURFUL BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="54-ABSTRACT BLE COLOURFUL BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/55-MARBLE INK BACKGRUND(PURPLE).jpeg" alt="55-MARBLE INK BACKGRUND(PURPLE)">
+      <h3>55-MARBLE INK BACKGRUND(PURPLE)</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="55-MARBLE INK BACKGRUND(PURPLE)">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/56-GLOWING BASKETBALL.jpeg" alt="56-GLOWING BASKETBALL">
+      <h3>56-GLOWING BASKETBALL</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="56-GLOWING BASKETBALL">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/57-BASKETBALL COURT.jpeg" alt="57-BASKETBALL COURT">
+      <h3>57-BASKETBALL COURT</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="57-BASKETBALL COURT">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/58-BASKETBALL GRUNGE.jpeg" alt="58-BASKETBALL GRUNGE">
+      <h3>58-BASKETBALL GRUNGE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="58-BASKETBALL GRUNGE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/59-BASKETBALL 1.jpeg" alt="59-BASKETBALL 1">
+      <h3>59-BASKETBALL 1</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="59-BASKETBALL 1">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/6-FLUSH DRIFT.jpg" alt="6-FLUSH DRIFT">
+      <h3>6-FLUSH DRIFT</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="6-FLUSH DRIFT">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/60-FRACTAL PRURPLE FLOWER.jpeg" alt="60-FRACTAL PRURPLE FLOWER">
+      <h3>60-FRACTAL PRURPLE FLOWER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="60-FRACTAL PRURPLE FLOWER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/61-TURQUOISE MARBLE.jpeg" alt="61-TURQUOISE MARBLE">
+      <h3>61-TURQUOISE MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="61-TURQUOISE MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/62-TEXTURED BLUE PAINTING.jpeg" alt="62-TEXTURED BLUE PAINTING">
+      <h3>62-TEXTURED BLUE PAINTING</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="62-TEXTURED BLUE PAINTING">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/63-MANCHESTER CITY 1.jpeg" alt="63-MANCHESTER CITY 1">
+      <h3>63-MANCHESTER CITY 1</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="63-MANCHESTER CITY 1">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/64-MANCHESTER CITY 2.jpeg" alt="64-MANCHESTER CITY 2">
+      <h3>64-MANCHESTER CITY 2</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="64-MANCHESTER CITY 2">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/65-ABSTRACT TWITCH PAINTING.jpeg" alt="65-ABSTRACT TWITCH PAINTING">
+      <h3>65-ABSTRACT TWITCH PAINTING</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="65-ABSTRACT TWITCH PAINTING">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/66-WHITE MARBLE.jpeg" alt="66-WHITE MARBLE">
+      <h3>66-WHITE MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="66-WHITE MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/67-LIGHT CALM BLE MARBLE.jpeg" alt="67-LIGHT CALM BLE MARBLE">
+      <h3>67-LIGHT CALM BLE MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="67-LIGHT CALM BLE MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/68- WOODEN LIGHT BOARD 1.jpeg" alt="68- WOODEN LIGHT BOARD 1">
+      <h3>68- WOODEN LIGHT BOARD 1</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="68- WOODEN LIGHT BOARD 1">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/69-MICROSOFT WOODEN BOARD 1.jpeg" alt="69-MICROSOFT WOODEN BOARD 1">
+      <h3>69-MICROSOFT WOODEN BOARD 1</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="69-MICROSOFT WOODEN BOARD 1">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/7-KOTART GRAPHIC VINYL.jpg" alt="7-KOTART GRAPHIC VINYL">
+      <h3>7-KOTART GRAPHIC VINYL</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="7-KOTART GRAPHIC VINYL">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/70-DARK WOODEN BOARD 1.jpeg" alt="70-DARK WOODEN BOARD 1">
+      <h3>70-DARK WOODEN BOARD 1</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="70-DARK WOODEN BOARD 1">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/71-DARK WOODEN BOARD 2.jpeg" alt="71-DARK WOODEN BOARD 2">
+      <h3>71-DARK WOODEN BOARD 2</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="71-DARK WOODEN BOARD 2">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/72-DARK WOODEN BOARD 3.jpeg" alt="72-DARK WOODEN BOARD 3">
+      <h3>72-DARK WOODEN BOARD 3</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="72-DARK WOODEN BOARD 3">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/73-ASHES WOODEN BOARD.jpeg" alt="73-ASHES WOODEN BOARD">
+      <h3>73-ASHES WOODEN BOARD</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="73-ASHES WOODEN BOARD">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/74-DARK WOODEN BOARD 4.jpeg" alt="74-DARK WOODEN BOARD 4">
+      <h3>74-DARK WOODEN BOARD 4</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="74-DARK WOODEN BOARD 4">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/75-SPONGE BOB.jpeg" alt="75-SPONGE BOB">
+      <h3>75-SPONGE BOB</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="75-SPONGE BOB">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/76-SPONGE BOB AND CHARACTERS.jpeg" alt="76-SPONGE BOB AND CHARACTERS">
+      <h3>76-SPONGE BOB AND CHARACTERS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="76-SPONGE BOB AND CHARACTERS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/77-SPONGE BOB TONGUE OUT WITH BUBBLE.jpeg" alt="77-SPONGE BOB TONGUE OUT WITH BUBBLE">
+      <h3>77-SPONGE BOB TONGUE OUT WITH BUBBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="77-SPONGE BOB TONGUE OUT WITH BUBBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/78-BLACK AND WHITE DANGER.jpeg" alt="78-BLACK AND WHITE DANGER">
+      <h3>78-BLACK AND WHITE DANGER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="78-BLACK AND WHITE DANGER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/79-PINK AND BLUE ABSTRACT BACKGROUND.jpeg" alt="79-PINK AND BLUE ABSTRACT BACKGROUND">
+      <h3>79-PINK AND BLUE ABSTRACT BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="79-PINK AND BLUE ABSTRACT BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/8-ECOSYSTEM.jpg" alt="8-ECOSYSTEM">
+      <h3>8-ECOSYSTEM</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="8-ECOSYSTEM">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/80-BRIGHT BLUE-WHITE-PINK ANSTRACT BACKGROUND.jpeg" alt="80-BRIGHT BLUE-WHITE-PINK ANSTRACT BACKGROUND">
+      <h3>80-BRIGHT BLUE-WHITE-PINK ANSTRACT BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="80-BRIGHT BLUE-WHITE-PINK ANSTRACT BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/81-LILAC PINK ABSTRACT BACKGROUND.jpeg" alt="81-LILAC PINK ABSTRACT BACKGROUND">
+      <h3>81-LILAC PINK ABSTRACT BACKGROUND</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="81-LILAC PINK ABSTRACT BACKGROUND">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/82-ROSE PINK MARBLE.jpeg" alt="82-ROSE PINK MARBLE">
+      <h3>82-ROSE PINK MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="82-ROSE PINK MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/83-LUXURY PURPLE MARBLE.jpeg" alt="83-LUXURY PURPLE MARBLE">
+      <h3>83-LUXURY PURPLE MARBLE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="83-LUXURY PURPLE MARBLE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/84-RED ROSE CLIPART.jpeg" alt="84-RED ROSE CLIPART">
+      <h3>84-RED ROSE CLIPART</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="84-RED ROSE CLIPART">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/85-NBA MARBLBA.jpeg" alt="85-NBA MARBLBA">
+      <h3>85-NBA MARBLBA</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="85-NBA MARBLBA">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/86-NBA CLUBS.jpeg" alt="86-NBA CLUBS">
+      <h3>86-NBA CLUBS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="86-NBA CLUBS">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/87-INNER STYLER.jpeg" alt="87-INNER STYLER">
+      <h3>87-INNER STYLER</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="87-INNER STYLER">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/88-RED CLOTH FOLD.jpeg" alt="88-RED CLOTH FOLD">
+      <h3>88-RED CLOTH FOLD</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="88-RED CLOTH FOLD">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/89-SOLID WINE.jpeg" alt="89-SOLID WINE">
+      <h3>89-SOLID WINE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="89-SOLID WINE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/9-ASH CAMOUFLAGE.jpg" alt="9-ASH CAMOUFLAGE">
+      <h3>9-ASH CAMOUFLAGE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="9-ASH CAMOUFLAGE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/90-WINE SMOKE.jpeg" alt="90-WINE SMOKE">
+      <h3>90-WINE SMOKE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="90-WINE SMOKE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/91-TOPOGRAPHIC MAP TEXTURE.jpeg" alt="91-TOPOGRAPHIC MAP TEXTURE">
+      <h3>91-TOPOGRAPHIC MAP TEXTURE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="91-TOPOGRAPHIC MAP TEXTURE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/92-CRAZY CARTOON LOGO.jpeg" alt="92-CRAZY CARTOON LOGO">
+      <h3>92-CRAZY CARTOON LOGO</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="92-CRAZY CARTOON LOGO">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/93-COLOURFUL TRIPPY.jpeg" alt="93-COLOURFUL TRIPPY">
+      <h3>93-COLOURFUL TRIPPY</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="93-COLOURFUL TRIPPY">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/94-FLAMING BASKETBALL.jpeg" alt="94-FLAMING BASKETBALL">
+      <h3>94-FLAMING BASKETBALL</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="94-FLAMING BASKETBALL">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/95-FUTURISTIC BASKETBALL ILLUSTRATION.jpeg" alt="95-FUTURISTIC BASKETBALL ILLUSTRATION">
+      <h3>95-FUTURISTIC BASKETBALL ILLUSTRATION</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="95-FUTURISTIC BASKETBALL ILLUSTRATION">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/96-BASKETBALL ON FIRE.jpeg" alt="96-BASKETBALL ON FIRE">
+      <h3>96-BASKETBALL ON FIRE</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="96-BASKETBALL ON FIRE">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/97-CONCRETE WALL BASKETBALL.jpeg" alt="97-CONCRETE WALL BASKETBALL">
+      <h3>97-CONCRETE WALL BASKETBALL</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="97-CONCRETE WALL BASKETBALL">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/98-FIERY BASKETBALL.jpeg" alt="98-FIERY BASKETBALL">
+      <h3>98-FIERY BASKETBALL</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="98-FIERY BASKETBALL">Select</button>
+    </div>
+    
+
+    <div class="card">
+      <img src="SELECT/99-BASKETBALL CELLS.jpeg" alt="99-BASKETBALL CELLS">
+      <h3>99-BASKETBALL CELLS</h3>
+      <p class="price">₵80.00</p>
+      <button class="whatsapp-btn btn-select" data-item="99-BASKETBALL CELLS">Select</button>
+    </div>
+    
+</div>
+
+<script>
+  document.querySelectorAll('.whatsapp-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      var itemName = button.getAttribute('data-item');
+      var message = "I WANT TO ORDER THIS FOR FOR ₵80.00--" + itemName;
+      var phone = '233534930308';
+      var url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
+      window.open(url, '_blank');
+    });
+  });
+</script>
+
+</body>
+</html>
